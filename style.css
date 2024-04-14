@@ -1,0 +1,86 @@
+/* primary colour :#D20062 */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.social-links:hover{
+  filter: brightness(0) saturate(100%) invert(26%) sepia(86%) saturate(6664%) hue-rotate(321deg) brightness(79%) contrast(113%);
+}
+
+.hero-text h1 {
+  color: #2d2e32;
+  font-size: 5.5rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+.mulish {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-item:hover{
+    color: #D20062;
+}
+
+.info{
+  text-align: center;
+}
+
+.skills{
+  text-align: center;
+}
+
+#home{
+  height: 80vh;
+  align-content: center;
+  background-color: #f9f9f9;
+}
+
+.about-text{
+  color: #D20062;
+}
+
+@media only screen and (max-width: 600px) {
+  .info{
+    order: 1;
+  }
+
+  .skill-img{
+    width: 10%;
+  }
+}
+
+.about {
+  padding: 15rem 0;
+
+  @media (max-width: 1020px) {
+    padding: 8rem 0;
+  }
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr ;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 1020px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
