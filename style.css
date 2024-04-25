@@ -10,6 +10,17 @@
   filter: brightness(0) saturate(100%) invert(26%) sepia(86%) saturate(6664%) hue-rotate(321deg) brightness(79%) contrast(113%);
 }
 
+a{
+  text-decoration: none;
+  color: #2d2e32;
+}
+
+a:hover{
+  color: #D20062;
+}
+
+
+
 .hero-text h1 {
   color: #2d2e32;
   font-size: 5.5rem;
@@ -47,6 +58,12 @@
 
 #home{
   height: 80vh;
+  align-content: center;
+  background-color: #f9f9f9;
+}
+
+#contact{
+  height: 30vh;
   align-content: center;
   background-color: #f9f9f9;
 }
